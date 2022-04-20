@@ -1,5 +1,6 @@
 import React from "react";
 import Footer from "./Footer";
+import MenuWithImage from "./MenuWithImage";
 import Navbar from "./Navbar";
 import SocialIcons from "./SocialIcons";
 
@@ -34,30 +35,8 @@ export default function Maps() {
               </p>
             </div>
             <div className="col-md-6">
-              {/* <nav className="menuBar">
-                <ul id="menu" className="">
-                  <li>
-                    <a href="/">Home</a>
-                  </li>
-                  |
-                  <li>
-                    <a href="/about">About Us</a>
-                  </li>
-                  |
-                  <li>
-                    <a href="/services">Services</a>
-                  </li>
-                  |
-                  <li>
-                    <a href="/maps">Maps</a>
-                  </li>
-                  |
-                  <li>
-                    <a href="/afghanistan">Afghanistan</a>
-                  </li>
-                </ul>
-              </nav> */}
-              <Navbar />
+              {/* <Navbar /> */}
+              <MenuWithImage />
             </div>
           </div>
         </div>

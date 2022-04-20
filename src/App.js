@@ -11,6 +11,7 @@ import About from "./components/About";
 import Services from "./components/Services";
 import Maps from "./components/Maps";
 import Afghanistan from "./components/Afghanistan";
+import MenuWithImage from "./components/MenuWithImage";
 function App() {
   return (
     <BrowserRouter>
@@ -23,6 +24,7 @@ function App() {
       </Routes>
     </BrowserRouter>
     // <Navbar />
+    // <MenuWithImage />
   );
 }
 

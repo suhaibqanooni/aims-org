@@ -1,10 +1,10 @@
 import React from "react";
 import "../styles/aimsStyle.css";
 
-// import UNDPLogo from "../assets/photos/UNDP.png";
 import Footer from "./Footer";
 import SocialIcons from "./SocialIcons";
 import Navbar from "./Navbar";
+import MenuWithImage from "./MenuWithImage";
 import Marquee from "react-fast-marquee";
 export default function Home() {
   // const [isOpen, setIsOpen] = useState(false);
@@ -38,7 +38,8 @@ export default function Home() {
               </p>
             </div>
             <div className="col-md-6">
-              <Navbar />
+              {/* <Navbar /> */}
+              <MenuWithImage />
             </div>
           </div>
         </div>

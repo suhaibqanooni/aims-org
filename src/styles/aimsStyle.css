@@ -1,14 +1,18 @@
 
 @charset "utf-8";
     #logo{
-        color: rgb(4, 4, 160);
+        /* color: rgb(4, 4, 160); */
+        color: blue;
     }
     #menu{
-        background-color: rgb(56, 83, 204);
+        /* background-color: rgb(56, 83, 204); */
+        width: 100%;
+        height: 100%;
         list-style: none;
-        float: right;
+        /* float: right; */
         margin: 0;
         padding: 0;
+        justify-content: space-between;
     }
     #menu li{
         display: inline-block;
@@ -17,13 +21,15 @@
         text-decoration: none;
         color: #fff;
         padding: 15px 15px;
+        align-self: center;
         display: block;
     }
     #menu li a:hover{
         background-color: white;
+        border-radius: 10px;
         color: blue;
+        transition: all 0.65s ease-in-out;
     }
-    
 
     .starter{
         width: 100%;
