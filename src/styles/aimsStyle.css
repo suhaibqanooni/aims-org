@@ -60,6 +60,7 @@
     }
     #scroll_news{
         margin-top: 5px;
+        width: 100%;
     }
     #scroll_news a{
         text-decoration: none;
