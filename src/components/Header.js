@@ -1,6 +1,7 @@
 import React from "react";
 import headerImage from "../assets/photos/header.PNG";
 import "../styles/aimsStyle.css";
+import Navbar from "./Navbar";
 
 export default function Header() {
   return (
@@ -34,7 +35,7 @@ export default function Header() {
               </p>
             </div>
             <div className="col-md-12">
-              <nav className="menuBar" style={{ marginTop: -50 }}>
+              {/* <nav className="menuBar" style={{ marginTop: -50 }}>
                 <ul id="menu" className="">
                   <li>
                     <a href="/">Home</a>
@@ -56,7 +57,8 @@ export default function Header() {
                     <a href="/afghanistan">Afghanistan</a>
                   </li>
                 </ul>
-              </nav>
+              </nav> */}
+              <Navbar />
             </div>
           </div>
         </div>
