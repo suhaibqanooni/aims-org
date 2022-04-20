@@ -35,7 +35,6 @@ export default function Header() {
               </p>
             </div>
             <div className="col-md-12">
-              {/* <Navbar /> */}
               <MenuWithImage />
             </div>
           </div>

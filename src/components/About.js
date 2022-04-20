@@ -33,7 +33,6 @@ export default function About() {
               </p>
             </div>
             <div className="col-md-6">
-              {/* <Navbar /> */}
               <MenuWithImage />
             </div>
           </div>
