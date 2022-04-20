@@ -72,14 +72,14 @@ export default function Home() {
         <div className="row">
           <div className="col-md-9 left-side">
             <Marquee id="scroll_news" pauseOnHover>
-              <a href="/">AIMS office location map</a> | &nbsp;
-              <a href="/">Job Vicancies</a> | &nbsp; <a href="/">GeoBase</a> |
-              &nbsp;
-              <a href="/">Training Services</a> | &nbsp;
-              <a href="/">Technology Awareness Workshops</a> | &nbsp;
-              <a href="/">GIS Users Community</a> | <a href="/">Geocodes</a> |
-              &nbsp;
-              <a href="/">Metadata</a> | &nbsp;
+              <a href="/">AIMS office location map</a> &nbsp; | &nbsp;
+              <a href="/">Job Vicancies</a> &nbsp; | &nbsp;
+              <a href="/">GeoBase</a> &nbsp; | &nbsp;
+              <a href="/">Training Services</a> &nbsp; | &nbsp;
+              <a href="/">Technology Awareness Workshops</a> &nbsp; | &nbsp;
+              <a href="/">GIS Users Community</a> | <a href="/">Geocodes</a>
+              &nbsp; | &nbsp;
+              <a href="/">Metadata</a> &nbsp; | &nbsp;
               <a href="/">Afghanistan Education Facilities Maps</a>
             </Marquee>
             <table>
