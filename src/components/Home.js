@@ -71,28 +71,15 @@ export default function Home() {
       <div className="container">
         <div className="row">
           <div className="col-md-9 left-side">
-            {/* <marquee
-              id="scroll_news"
-              onMouseOver={() => document.getElementById("scroll_news").stop()}
-              onMouseOut={() => document.getElementById("scroll_news").start()}
-              behavior=""
-              direction=""
-            >
-              <a href="/">AIMS office location map</a> |
-              <a href="/">Job Vicancies</a> | <a href="/">GeoBase</a> |
-              <a href="/">Training Services</a> |
-              <a href="/">Technology Awareness Workshops</a> |
-              <a href="/">GIS Users Community</a> | <a href="/">Geocodes</a> |
-              <a href="/">Metadata</a> |
-              <a href="/">Afghanistan Education Facilities Maps</a>
-            </marquee> */}
             <Marquee id="scroll_news" pauseOnHover>
-              <a href="/">AIMS office location map</a> |
-              <a href="/">Job Vicancies</a> | <a href="/">GeoBase</a> |
-              <a href="/">Training Services</a> |
-              <a href="/">Technology Awareness Workshops</a> |
+              <a href="/">AIMS office location map</a> | &nbsp;
+              <a href="/">Job Vicancies</a> | &nbsp; <a href="/">GeoBase</a> |
+              &nbsp;
+              <a href="/">Training Services</a> | &nbsp;
+              <a href="/">Technology Awareness Workshops</a> | &nbsp;
               <a href="/">GIS Users Community</a> | <a href="/">Geocodes</a> |
-              <a href="/">Metadata</a> |
+              &nbsp;
+              <a href="/">Metadata</a> | &nbsp;
               <a href="/">Afghanistan Education Facilities Maps</a>
             </Marquee>
             <table>
