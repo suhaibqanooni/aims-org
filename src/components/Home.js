@@ -56,8 +56,8 @@ export default function Home() {
               <a href="/">GeoBase</a> &nbsp; | &nbsp;
               <a href="/">Training Services</a> &nbsp; | &nbsp;
               <a href="/">Technology Awareness Workshops</a> &nbsp; | &nbsp;
-              <a href="/">GIS Users Community</a> | <a href="/">Geocodes</a>
-              &nbsp; | &nbsp;
+              <a href="/">GIS Users Community</a>&nbsp; | &nbsp;
+              <a href="/">Geocodes</a> &nbsp; | &nbsp;
               <a href="/">Metadata</a> &nbsp; | &nbsp;
               <a href="/">Afghanistan Education Facilities Maps</a>
             </Marquee>
