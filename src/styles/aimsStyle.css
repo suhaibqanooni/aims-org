@@ -58,11 +58,11 @@
         color: blue;
         border-radius: 50px;
     }
-    #scroll_news{
+    .scroll_news{
         margin-top: 5px;
         width: 100%;
     }
-    #scroll_news a{
+    .scroll_news a{
         text-decoration: none;
         color: gray;
     }

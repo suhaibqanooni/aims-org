@@ -71,7 +71,11 @@ export default function Home() {
       <div className="container">
         <div className="row">
           <div className="col-md-9 left-side">
-            <Marquee id="scroll_news" pauseOnHover>
+            <Marquee
+              className="scroll_news"
+              pauseOnHover
+              style={{ width: "100%", marginTop: 5 }}
+            >
               <a href="/">AIMS office location map</a> &nbsp; | &nbsp;
               <a href="/">Job Vicancies</a> &nbsp; | &nbsp;
               <a href="/">GeoBase</a> &nbsp; | &nbsp;
