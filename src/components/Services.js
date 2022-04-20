@@ -34,29 +34,6 @@ export default function Services() {
               </p>
             </div>
             <div class="col-md-6">
-              {/* <nav class="menuBar">
-                <ul id="menu" className="">
-                  <li>
-                    <a href="/">Home</a>
-                  </li>
-                  |
-                  <li>
-                    <a href="/about">About Us</a>
-                  </li>
-                  |
-                  <li>
-                    <a href="/services">Services</a>
-                  </li>
-                  |
-                  <li>
-                    <a href="/maps">Maps</a>
-                  </li>
-                  |
-                  <li>
-                    <a href="/afghanistan">Afghanistan</a>
-                  </li>
-                </ul>
-              </nav> */}
               <Navbar />
             </div>
           </div>

@@ -38,31 +38,6 @@ export default function Home() {
               </p>
             </div>
             <div className="col-md-6">
-              {/* <nav className="menuBar">
-                <div id="menu" className={`nav-items ${isOpen && "open"}`}>
-                  <li>
-                    <a href="/">Home</a>
-                  </li>
-                  <li>
-                    <a href="/about">About Us</a>
-                  </li>
-                  <li>
-                    <a href="/services">Services</a>
-                  </li>
-                  <li>
-                    <a href="/maps">Maps</a>
-                  </li>
-                  <li>
-                    <a href="/afghanistan">Afghanistan</a>
-                  </li>
-                </div>
-              </nav>
-              <div
-                className={`nav-toggle ${isOpen && "open"}`}
-                onClick={() => setIsOpen(!isOpen)}
-              >
-                <div className="bar"></div>
-              </div> */}
               <Navbar />
             </div>
           </div>
