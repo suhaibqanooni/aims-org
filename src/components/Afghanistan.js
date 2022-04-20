@@ -1,5 +1,6 @@
 import React from "react";
 import Footer from "./Footer";
+import Navbar from "./Navbar";
 import SocialIcons from "./SocialIcons";
 
 export default function Afghanistan() {
@@ -33,7 +34,7 @@ export default function Afghanistan() {
               </p>
             </div>
             <div className="col-md-6">
-              <nav className="menuBar">
+              {/* <nav className="menuBar">
                 <ul id="menu" className="">
                   <li>
                     <a href="/">Home</a>
@@ -55,7 +56,8 @@ export default function Afghanistan() {
                     <a href="/afghanistan">Afghanistan</a>
                   </li>
                 </ul>
-              </nav>
+              </nav> */}
+              <Navbar />
             </div>
           </div>
         </div>

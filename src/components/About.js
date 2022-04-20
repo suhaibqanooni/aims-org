@@ -1,4 +1,5 @@
 import React from "react";
+import Navbar from "./Navbar";
 import SocialIcons from "./SocialIcons";
 
 export default function About() {
@@ -32,7 +33,7 @@ export default function About() {
               </p>
             </div>
             <div className="col-md-6">
-              <nav className="menuBar">
+              {/* <nav className="menuBar">
                 <ul id="menu" className="">
                   <li>
                     <a href="/">Home</a>
@@ -54,7 +55,8 @@ export default function About() {
                     <a href="/afghanistan">Afghanistan</a>
                   </li>
                 </ul>
-              </nav>
+              </nav> */}
+              <Navbar />
             </div>
           </div>
         </div>
