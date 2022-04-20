@@ -94,7 +94,7 @@ export default function Maps() {
               <div className="col-md-12">
                 <h1 id="brows-services">Sub Sections</h1>
 
-                <a href="">&#9830; Standard Maps</a>
+                <a href="/">&#9830; Standard Maps</a>
                 <br />
                 <p style={{ color: "gray" }}>[564 Documents ]</p>
                 <p>
@@ -105,7 +105,7 @@ export default function Maps() {
                   boundaries.
                 </p>
 
-                <a href="">&#9830; Regional Maps</a>
+                <a href="/">&#9830; Regional Maps</a>
                 <br />
                 <p style={{ color: "gray" }}>[1 Documents]</p>
                 <p>
@@ -113,7 +113,7 @@ export default function Maps() {
                   North Eastern, Eastern and Southern regions of Afghanistan.
                 </p>
 
-                <a href="">&#9830 Custom Maps</a>
+                <a href="/">&#9830 Custom Maps</a>
                 <br />
                 <p style={{ color: "gray" }}>[1 Documents]</p>
                 <p>
@@ -121,7 +121,7 @@ export default function Maps() {
                   different organizations for a specific purpose.
                 </p>
 
-                <a href="">&#9830 External Resources' Maps</a>
+                <a href="/">&#9830 External Resources' Maps</a>
                 <br />
                 <p style={{ color: "gray" }}>[1 Documents]</p>
                 <p>
@@ -131,7 +131,7 @@ export default function Maps() {
                 </p>
               </div>
             </div>
-            <a href="#" className="back_to_top">
+            <a href="/" className="back_to_top">
               Back to top
             </a>
           </div>
@@ -139,9 +139,9 @@ export default function Maps() {
           <div className="col-md-3 right-side">
             <div>
               <h1 style={{ color: "peru", fontSize: 18 }}>Site New Updates</h1>
-              <a href="">&#8226; AIMS Monthly Update for October 2008</a>
+              <a href="/">&#8226; AIMS Monthly Update for October 2008</a>
               <br />
-              <a href="">&#8226; AIMS Partners</a>
+              <a href="/">&#8226; AIMS Partners</a>
             </div>
             <hr id="lines" />
             <img
@@ -153,7 +153,7 @@ export default function Maps() {
             Maintained by AIMS. The objective of the GeoBase is to establish an
             activity tracking database or management information system ...
             <br />
-            <a href="#" style={{ float: "right" }}>
+            <a href="/" style={{ float: "right" }}>
               more...
             </a>
             <br />
@@ -168,7 +168,7 @@ export default function Maps() {
             promote data discovering, sharing, standards, dissemination and
             exchange of GIS related ideas and suggestions
             <br />
-            <a href="#" style={{ float: "right" }}>
+            <a href="/" style={{ float: "right" }}>
               more...
             </a>
             <br />
@@ -179,7 +179,7 @@ export default function Maps() {
             and that of the international community becomes inevitable. AIMS has
             been able to establish its partnership with numerous....
             <br />
-            <a href="#" style={{ float: "right" }}>
+            <a href="/" style={{ float: "right" }}>
               more...
             </a>
             <br />

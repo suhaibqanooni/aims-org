@@ -1,12 +1,13 @@
-import React, { useState } from "react";
+import React from "react";
 import "../styles/aimsStyle.css";
 
-import UNDPLogo from "../assets/photos/UNDP.png";
+// import UNDPLogo from "../assets/photos/UNDP.png";
 import Footer from "./Footer";
 import SocialIcons from "./SocialIcons";
 import Navbar from "./Navbar";
+import Marquee from "react-fast-marquee";
 export default function Home() {
-  const [isOpen, setIsOpen] = useState(false);
+  // const [isOpen, setIsOpen] = useState(false);
   return (
     <>
       <div className="container">
@@ -70,25 +71,34 @@ export default function Home() {
       <div className="container">
         <div className="row">
           <div className="col-md-9 left-side">
-            <marquee
+            {/* <marquee
               id="scroll_news"
               onMouseOver={() => document.getElementById("scroll_news").stop()}
               onMouseOut={() => document.getElementById("scroll_news").start()}
               behavior=""
               direction=""
             >
-              <a href="#">AIMS office location map</a> |
-              <a href="#">Job Vicancies</a> | <a href="#">GeoBase</a> |
-              <a href="#">Training Services</a> |
-              <a href="#">Technology Awareness Workshops</a> |
-              <a href="#">GIS Users Community</a> | <a href="#">Geocodes</a> |
-              <a href="#">Metadata</a> |
-              <a href="#">Afghanistan Education Facilities Maps</a>
-            </marquee>
+              <a href="/">AIMS office location map</a> |
+              <a href="/">Job Vicancies</a> | <a href="/">GeoBase</a> |
+              <a href="/">Training Services</a> |
+              <a href="/">Technology Awareness Workshops</a> |
+              <a href="/">GIS Users Community</a> | <a href="/">Geocodes</a> |
+              <a href="/">Metadata</a> |
+              <a href="/">Afghanistan Education Facilities Maps</a>
+            </marquee> */}
+            <Marquee id="scroll_news" pauseOnHover>
+              <a href="/">AIMS office location map</a> |
+              <a href="/">Job Vicancies</a> | <a href="/">GeoBase</a> |
+              <a href="/">Training Services</a> |
+              <a href="/">Technology Awareness Workshops</a> |
+              <a href="/">GIS Users Community</a> | <a href="/">Geocodes</a> |
+              <a href="/">Metadata</a> |
+              <a href="/">Afghanistan Education Facilities Maps</a>
+            </Marquee>
             <table>
               <tr>
                 <td>
-                  <a href="#" style={{ textDecoration: "none" }}>
+                  <a href="/" style={{ textDecoration: "none" }}>
                     Afghanistan Information Management Services
                   </a>
                   <br />
@@ -103,7 +113,7 @@ export default function Home() {
                     systems concerned.
                   </p>
                   <br />
-                  <a href="#" style={{ float: "right" }}>
+                  <a href="/" style={{ float: "right" }}>
                     more...
                   </a>
                   <br />
@@ -125,10 +135,10 @@ export default function Home() {
                   />
                   <div className="card-body">
                     <p className="card-text">
-                      <a href="#">Institutional Relations and Development | </a>
-                      <a href="#"> Executive Briefing Sessions | </a>
-                      <a href="#"> Government Services | </a>
-                      <a href="#"> Mins. & Deps. Map & Contact</a>
+                      <a href="/">Institutional Relations and Development | </a>
+                      <a href="/"> Executive Briefing Sessions | </a>
+                      <a href="/"> Government Services | </a>
+                      <a href="/"> Mins. & Deps. Map & Contact</a>
                     </p>
                   </div>
                 </div>
@@ -143,10 +153,10 @@ export default function Home() {
                   />
                   <div className="card-body">
                     <p className="card-text">
-                      <a href="#">GIS / Mapping Services | </a>
-                      <a href="#"> Geocodes & Settlements DB | </a>
-                      <a href="#"> Shape Files | </a>
-                      <a href="#"> GIS Users Community</a>
+                      <a href="/">GIS / Mapping Services | </a>
+                      <a href="/"> Geocodes & Settlements DB | </a>
+                      <a href="/"> Shape Files | </a>
+                      <a href="/"> GIS Users Community</a>
                     </p>
                   </div>
                 </div>
@@ -161,10 +171,10 @@ export default function Home() {
                   />
                   <div className="card-body">
                     <p className="card-text">
-                      <a href="#">Customer Services |</a>
-                      <a href="#"> Map / Data Request Form |</a>
-                      <a href="#"> Publications | </a>
-                      <a href="#"> Library</a>
+                      <a href="/">Customer Services |</a>
+                      <a href="/"> Map / Data Request Form |</a>
+                      <a href="/"> Publications | </a>
+                      <a href="/"> Library</a>
                     </p>
                   </div>
                 </div>
@@ -179,10 +189,10 @@ export default function Home() {
                   />
                   <div className="card-body">
                     <p className="card-text">
-                      <a href="#">MIS / Web Services | </a>
-                      <a href="#"> Team Structure & Expertise | </a>
-                      <a href="#"> Development Standards & Best Practices | </a>
-                      <a href="#"> Our Products</a>
+                      <a href="/">MIS / Web Services | </a>
+                      <a href="/"> Team Structure & Expertise | </a>
+                      <a href="/"> Development Standards & Best Practices | </a>
+                      <a href="/"> Our Products</a>
                     </p>
                   </div>
                 </div>
@@ -197,10 +207,10 @@ export default function Home() {
                   />
                   <div className="card-body">
                     <p className="card-text">
-                      <a href="#">Training Services | </a>
-                      <a href="#"> Special Trainings (Short Terms) | </a>
-                      <a href="#"> AIMS Training Courses | </a>
-                      <a href="#"> AIMS Training Materials</a>
+                      <a href="/">Training Services | </a>
+                      <a href="/"> Special Trainings (Short Terms) | </a>
+                      <a href="/"> AIMS Training Courses | </a>
+                      <a href="/"> AIMS Training Materials</a>
                     </p>
                   </div>
                 </div>
@@ -215,10 +225,10 @@ export default function Home() {
                   />
                   <div className="card-body">
                     <p className="card-text">
-                      <a href="#">Regional Services | </a>
-                      <a href="#"> Regional Office Mazar | </a>
-                      <a href="#"> Regional Office Jalalabad | </a>
-                      <a href="#"> Regional Office Hirat</a>
+                      <a href="/">Regional Services | </a>
+                      <a href="/"> Regional Office Mazar | </a>
+                      <a href="/"> Regional Office Jalalabad | </a>
+                      <a href="/"> Regional Office Hirat</a>
                     </p>
                   </div>
                 </div>
@@ -235,48 +245,54 @@ export default function Home() {
                   &#9830; GIS Users Community
                 </a>
                 <br />
-                <a href="" style={{ color: "gray", textDecoration: "none" }}>
+                <a href="/" style={{ color: "gray", textDecoration: "none" }}>
                   &#9830; Vacancy Announcements within AIMS
                 </a>
                 <br />
                 <a
-                  href=""
+                  href="/"
                   style={{ color: "yellowgreen", textDecoration: "none" }}
                 >
                   &#9830; AIMS Office Location Map
                 </a>
                 <br />
-                <a href="" style={{ color: "skyblue", textDecoration: "none" }}>
+                <a
+                  href="/"
+                  style={{ color: "skyblue", textDecoration: "none" }}
+                >
                   &#9830; AIMS Afghanistan Year 1387 (08 - 09) Calendar
                 </a>
                 <br />
-                <a href="" style={{ color: "green", textDecoration: "none" }}>
+                <a href="/" style={{ color: "green", textDecoration: "none" }}>
                   &#9830; Special Achievement in GIS Award for AIMS
                 </a>
                 <br />
-                <a href="" style={{ color: "brown", textDecoration: "none" }}>
+                <a href="/" style={{ color: "brown", textDecoration: "none" }}>
                   &#9830; Badakhshan Earthquake Map (03 April 07)
                 </a>
                 <br />
-                <a href="" style={{ color: "gray", textDecoration: "none" }}>
+                <a href="/" style={{ color: "gray", textDecoration: "none" }}>
                   &#9830; Afghanistan Latest Floods (Maps & Data)
                 </a>
                 <br />
-                <a href="" style={{ color: "skyblue", textDecoration: "none" }}>
+                <a
+                  href="/"
+                  style={{ color: "skyblue", textDecoration: "none" }}
+                >
                   &#9830; Link to DDP's Website
                 </a>
               </div>
               <div className="col-md-6">
                 <h1 id="brows-services">Site New Updates</h1>
-                <a href="">&#8226; AIMS Monthly Update for October 2008</a>
+                <a href="/">&#8226; AIMS Monthly Update for October 2008</a>
                 <br />
-                <a href="">&#8226; AIMS Partners</a>
+                <a href="/">&#8226; AIMS Partners</a>
               </div>
             </div>
           </div>
 
           <div className="col-md-3 right-side">
-            <a href="#">Where are we?</a>
+            <a href="/">Where are we?</a>
             <table>
               <tr>
                 <td>
@@ -287,17 +303,17 @@ export default function Home() {
                   />
                 </td>
                 <td>
-                  <a href="#">Kabul</a>
+                  <a href="/">Kabul</a>
                   <br />
-                  <a href="#">Jalalabad</a>
+                  <a href="/">Jalalabad</a>
                   <br />
-                  <a href="#">Kandahar</a>
+                  <a href="/">Kandahar</a>
                   <br />
-                  <a href="#">Kunduz</a>
+                  <a href="/">Kunduz</a>
                   <br />
-                  <a href="#">Hirat</a>
+                  <a href="/">Hirat</a>
                   <br />
-                  <a href="#">Mazar-e-Sharif</a>
+                  <a href="/">Mazar-e-Sharif</a>
                 </td>
               </tr>
             </table>
@@ -311,7 +327,7 @@ export default function Home() {
             Maintained by AIMS. The objective of the GeoBase is to establish an
             activity tracking database or management information system ...
             <br />
-            <a href="#" style={{ float: "right" }}>
+            <a href="/" style={{ float: "right" }}>
               more...
             </a>
             <br />
@@ -326,7 +342,7 @@ export default function Home() {
             promote data discovering, sharing, standards, dissemination and
             exchange of GIS related ideas and suggestions
             <br />
-            <a href="#" style={{ float: "right" }}>
+            <a href="/" style={{ float: "right" }}>
               more...
             </a>
             <br />
@@ -337,7 +353,7 @@ export default function Home() {
             and that of the international community becomes inevitable. AIMS has
             been able to establish its partnership with numerous....
             <br />
-            <a href="#" style={{ float: "right" }}>
+            <a href="/" style={{ float: "right" }}>
               more...
             </a>
             <br />

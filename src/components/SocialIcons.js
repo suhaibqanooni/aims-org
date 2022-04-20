@@ -7,7 +7,7 @@ export default function SocialIcons() {
       <a href="https://www.facebook.com/aimsafg/">
         <i className="fab fa-facebook-f"></i>
       </a>
-      <a href="#">
+      <a href="https://twitter.com/SQanooni">
         <i className="fab fa-twitter"></i>
       </a>
       <a href="http://linkedin.com/in/suhaib-qanooni-1110b6165">

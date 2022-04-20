@@ -128,7 +128,7 @@ export default function About() {
                 </a>
                 <br />
                 <p style={{ color: "gray" }}>[12 Documents 1 New ]</p>
-                <a href="">&#9830; AIMS Administeration</a>
+                <a href="/">&#9830; AIMS Administeration</a>
                 <br />
                 <p style={{ color: "gray" }}>[145 Documents]</p>
                 <p>
@@ -136,7 +136,7 @@ export default function About() {
                   Programme staff in Kabul and each of the five regional offices
                   in Kandahar, Mazar, Jalalabad, Kunduz and Herat.
                 </p>
-                <a href="">&#9830; AIMS Project reports</a>
+                <a href="/">&#9830; AIMS Project reports</a>
                 <br />
                 <p style={{ color: "gray" }}>[26 Documents]</p>
                 <p>
@@ -148,26 +148,26 @@ export default function About() {
                   encountered, lessons learned, and suggestions for future
                   activities.
                 </p>
-                <a href="">&#9830; Vacancy Announcements within AIMS</a>
+                <a href="/">&#9830; Vacancy Announcements within AIMS</a>
                 <br />
                 <p style={{ color: "gray" }}>[66 Documents]</p>
                 <h1 id="brows-services">Documents</h1>
-                <a href="">&#9830; AIMS Partners</a>[15.40 KB HTML]
+                <a href="/">&#9830; AIMS Partners</a>[15.40 KB HTML]
                 <p>(16 Oct 2008)</p>
                 <a href="org_chart.pdf">&#9830; AIMS Organization Chart </a>
                 [53.90 KB PDF]
                 <p>(24 Sep 2008)</p>
-                <a href="">&#9830; Vision & Strategy </a>[5.80 KB Excel]
+                <a href="/">&#9830; Vision & Strategy </a>[5.80 KB Excel]
                 <p>(01 Dec 2004)</p>
                 <a href="map.pdf">&#9830; Office Location Map </a>[840.00 KB
                 PDF]
                 <p>(09 Sep 2008)</p>
-                <a href="">&#9830; History </a>[3.57 KB HTML]
+                <a href="/">&#9830; History </a>[3.57 KB HTML]
                 <p>(01 Dec 2004)</p>
-                <a href="">&#9830; Site Map </a>
+                <a href="/">&#9830; Site Map </a>
               </div>
             </div>
-            <a href="#" className="back_to_top">
+            <a href="/" className="back_to_top">
               Back to top
             </a>
           </div>
@@ -175,9 +175,9 @@ export default function About() {
           <div className="col-md-3 right-side">
             <div>
               <h1 id="brows-services">Site New Updates</h1>
-              <a href="">&#8226; AIMS Monthly Update for October 2008</a>
+              <a href="/">&#8226; AIMS Monthly Update for October 2008</a>
               <br />
-              <a href="">&#8226; AIMS Partners</a>
+              <a href="/">&#8226; AIMS Partners</a>
             </div>
             <hr id="lines" />
             <img
@@ -189,7 +189,7 @@ export default function About() {
             Maintained by AIMS. The objective of the GeoBase is to establish an
             activity tracking database or management information system ...
             <br />
-            <a href="#" style={{ float: "right" }}>
+            <a href="/" style={{ float: "right" }}>
               more...
             </a>
             <br />
@@ -204,7 +204,7 @@ export default function About() {
             promote data discovering, sharing, standards, dissemination and
             exchange of GIS related ideas and suggestions
             <br />
-            <a href="#" style={{ float: "right" }}>
+            <a href="/" style={{ float: "right" }}>
               more...
             </a>
             <br />
@@ -215,7 +215,7 @@ export default function About() {
             and that of the international community becomes inevitable. AIMS has
             been able to establish its partnership with numerous....
             <br />
-            <a href="#" style={{ float: "right" }}>
+            <a href="/" style={{ float: "right" }}>
               more...
             </a>
             <br />
@@ -233,8 +233,8 @@ export default function About() {
             </p>
             <a href="about.html">Site Map</a> |
             <a href="afghanistan.html">Location</a> |
-            <a href="about.html">Contact Us</a> |<a href="">Feedback</a> |
-            <a href="">External Links</a>
+            <a href="about.html">Contact Us</a> |<a href="/">Feedback</a> |
+            <a href="/">External Links</a>
           </div>
         </div>
       </div>

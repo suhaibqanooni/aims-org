@@ -144,7 +144,7 @@ export default function Afghanistan() {
                 <p>(17 Mar 2005)</p>
               </div>
             </div>
-            <a href="#" className="back_to_top">
+            <a href="/home" className="back_to_top">
               Back to top
             </a>
           </div>
@@ -152,9 +152,9 @@ export default function Afghanistan() {
           <div className="col-md-3 right-side">
             <div>
               <h1 id="brows-services">Site New Updates</h1>
-              <a href="">&#8226; AIMS Monthly Update for October 2008</a>
+              <a href="/home">&#8226; AIMS Monthly Update for October 2008</a>
               <br />
-              <a href="">&#8226; AIMS Partners</a>
+              <a href="/home">&#8226; AIMS Partners</a>
             </div>
             <hr id="lines" />
             <img
@@ -166,7 +166,7 @@ export default function Afghanistan() {
             Maintained by AIMS. The objective of the GeoBase is to establish an
             activity tracking database or management information system ...
             <br />
-            <a href="#" style={{ float: "right" }}>
+            <a href="/home" style={{ float: "right" }}>
               more...
             </a>
             <br />
@@ -181,7 +181,7 @@ export default function Afghanistan() {
             promote data discovering, sharing, standards, dissemination and
             exchange of GIS related ideas and suggestions
             <br />
-            <a href="#" style={{ float: "right" }}>
+            <a href="/home" style={{ float: "right" }}>
               more...
             </a>
             <br />
@@ -192,7 +192,7 @@ export default function Afghanistan() {
             and that of the international community becomes inevitable. AIMS has
             been able to establish its partnership with numerous....
             <br />
-            <a href="#" style={{ float: "right" }}>
+            <a href="/home" style={{ float: "right" }}>
               more...
             </a>
             <br />

@@ -14,8 +14,9 @@ export default function Footer() {
           </p>
           <a href="about.html">Site Map</a> |
           <a href="afghanistan.html">Location</a> |
-          <a href="about.html">Contact Us</a> |<a href="">Feedback</a> |
-          <a href="">External Links</a>
+          <a href="about.html">Contact Us</a> |
+          <a href="http://localhost:3000/aims.org">Feedback</a> |
+          <a href="http://localhost:3000/aims.org">External Links</a>
         </div>
       </div>
     </div>

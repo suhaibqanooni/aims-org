@@ -74,7 +74,7 @@ export default function Services() {
             <div class="row">
               <div class="col-md-12">
                 <h1 id="brows-services">Sub Sections</h1>
-                <a href="">&#9830; Customer Services</a>
+                <a href="/">&#9830; Customer Services</a>
                 <br />
                 <p style={{ color: "gray" }}>[13 Documents ]</p>
                 <p>
@@ -92,7 +92,7 @@ export default function Services() {
                   office in the UNAMA compounds.
                 </p>
 
-                <a href="">&#9830; Institutional Relations and Development</a>
+                <a href="/">&#9830; Institutional Relations and Development</a>
                 <br />
                 <p style={{ color: "gray" }}>[34 Documents]</p>
                 <p>
@@ -111,7 +111,7 @@ export default function Services() {
                   community.
                 </p>
 
-                <a href="">&#9830; Regional Services</a>
+                <a href="/">&#9830; Regional Services</a>
                 <br />
                 <p style={{ color: "gray" }}>[101 Documents]</p>
                 <p>
@@ -121,7 +121,7 @@ export default function Services() {
                   humanitarian and AID community in emergency situation.
                 </p>
 
-                <a href="">&#9830; Training Services</a>
+                <a href="/">&#9830; Training Services</a>
                 <br />
                 <p style={{ color: "gray" }}>[92 Documents]</p>
                 <p>
@@ -130,7 +130,7 @@ export default function Services() {
                   expertise may be established and maintained in government.
                 </p>
 
-                <a href="">&#9830; GIS / Mapping Services</a>
+                <a href="/">&#9830; GIS / Mapping Services</a>
                 <br />
                 <p style={{ color: "gray" }}>[163 Documents]</p>
                 <p>
@@ -140,7 +140,7 @@ export default function Services() {
                   institutionalizing information management capability.
                 </p>
 
-                <a href="">&#9830; MIS / Web Services</a>
+                <a href="/">&#9830; MIS / Web Services</a>
                 <br />
                 <p style={{ color: "gray" }}>[52 Documents]</p>
                 <p>
@@ -158,7 +158,7 @@ export default function Services() {
                   analysis and Providing Advisory Services.
                 </p>
 
-                <a href="">&#9830; Sectoral Services</a>
+                <a href="/">&#9830; Sectoral Services</a>
                 <br />
                 <p style={{ color: "gray" }}>[726 Documents]</p>
                 <p>
@@ -168,7 +168,7 @@ export default function Services() {
                   appropriate heading.
                 </p>
 
-                <a href="">&#9830; Advisory Services</a>
+                <a href="/">&#9830; Advisory Services</a>
                 <br />
                 <p style={{ color: "gray" }}>[7 Documents]</p>
                 <p>
@@ -187,7 +187,7 @@ export default function Services() {
                 </p>
               </div>
             </div>
-            <a href="#" class="back_to_top">
+            <a href="/" class="back_to_top">
               Back to top
             </a>
           </div>
@@ -197,9 +197,9 @@ export default function Services() {
               <h1 style={{ color: "orange", fontSize: 18 }}>
                 Site New Updates
               </h1>
-              <a href="">&#8226; AIMS Monthly Update for October 2008</a>
+              <a href="/">&#8226; AIMS Monthly Update for October 2008</a>
               <br />
-              <a href="">&#8226; AIMS Partners</a>
+              <a href="/">&#8226; AIMS Partners</a>
             </div>
             <hr id="lines" />
             <img
@@ -211,7 +211,7 @@ export default function Services() {
             Maintained by AIMS. The objective of the GeoBase is to establish an
             activity tracking database or management information system ...
             <br />
-            <a href="#" style={{ float: "right" }}>
+            <a href="/" style={{ float: "right" }}>
               more...
             </a>
             <br />
@@ -226,7 +226,7 @@ export default function Services() {
             promote data discovering, sharing, standards, dissemination and
             exchange of GIS related ideas and suggestions
             <br />
-            <a href="#" style={{ float: "right" }}>
+            <a href="/" style={{ float: "right" }}>
               more...
             </a>
             <br />
@@ -237,7 +237,7 @@ export default function Services() {
             and that of the international community becomes inevitable. AIMS has
             been able to establish its partnership with numerous....
             <br />
-            <a href="#" style={{ float: "right" }}>
+            <a href="/" style={{ float: "right" }}>
               more...
             </a>
             <br />
