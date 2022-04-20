@@ -1,7 +1,6 @@
 import React from "react";
 import Footer from "./Footer";
 import MenuWithImage from "./MenuWithImage";
-import Navbar from "./Navbar";
 import SocialIcons from "./SocialIcons";
 
 export default function Services() {

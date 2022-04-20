@@ -2,7 +2,6 @@ import React from "react";
 import headerImage from "../assets/photos/header.PNG";
 import "../styles/aimsStyle.css";
 import MenuWithImage from "./MenuWithImage";
-import Navbar from "./Navbar";
 
 export default function Header() {
   return (

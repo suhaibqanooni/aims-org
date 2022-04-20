@@ -3,7 +3,6 @@ import "../styles/aimsStyle.css";
 
 import Footer from "./Footer";
 import SocialIcons from "./SocialIcons";
-import Navbar from "./Navbar";
 import MenuWithImage from "./MenuWithImage";
 import Marquee from "react-fast-marquee";
 export default function Home() {

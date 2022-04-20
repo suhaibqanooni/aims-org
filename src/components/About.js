@@ -1,6 +1,5 @@
 import React from "react";
 import MenuWithImage from "./MenuWithImage";
-import Navbar from "./Navbar";
 import SocialIcons from "./SocialIcons";
 
 export default function About() {

@@ -1,12 +1,8 @@
 import React from "react";
-import UNDPLogo from "../assets/photos/UNDP.png";
 import "../styles/aimsStyle.css";
 export default function MenuWithImage() {
   return (
     <nav className="navbar-expand-lg navbar navbar-dark bg-primary">
-      {/* <a className="navbar-brand" href="#">
-        A I M S
-      </a> */}
       <button
         className="navbar-toggler"
         type="button"
