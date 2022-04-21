@@ -2,8 +2,7 @@
 import "./styles/aimsStyle.css";
 
 // import ReactDOM from "react-dom";
-import { BrowserRouter, Routes, Switch, Route } from "react-router-dom";
-
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 // import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 // import Header from "./components/Header";
@@ -15,13 +14,13 @@ import Afghanistan from "./components/Afghanistan";
 function App() {
   return (
     <BrowserRouter>
-      <Switch>
+      <Routes>
         <Route path="/" element={<Home />} />
         <Route path="about" element={<About />} />
         <Route path="services" element={<Services />} />
         <Route path="maps" element={<Maps />} />
         <Route path="afghanistan" element={<Afghanistan />} />
-      </Switch>
+      </Routes>
     </BrowserRouter>
     // <Navbar />
     // <MenuWithImage />
